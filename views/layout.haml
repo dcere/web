@@ -1,0 +1,34 @@
+!!!
+%html
+    %head
+        %title
+            David Ceresuela
+        %link(rel="stylesheet" href="css/style4.css")
+   
+    %body
+        #wrapper
+            #header
+                #logo
+                    %h1
+                        %a David Ceresuela
+                    /.slogan
+                    /    Design by somebody that I used to know
+            #menu
+                %ul
+                    /%li About
+                    %li <a href="https://github.com/dcere">Github</a>
+                    %li <a href="resume.pdf">CV</a>
+                    %li <a href="mailto:david.ceresuela@gmail.com">Contact</a>
+            #page
+                #sidebar
+                    .box
+                        %h3 About
+                        %p
+                            I am David Ceresuela, a Computer Engineer living in Zaragoza, Spain. I have just finished my master thesis and I am quite happy about it. When I am not in front of the computer I am probably playing the guitar or reading a book.
+                #content
+                    .box
+                        =yield
+
+
+        #footer
+            &copy; 2012 David Ceresuela - <a href="http://dcere.herokuapp.com">dcere.herokuapp.com</a> | Powered by <a href="http://nodethirtythree.com/jquery/dropotron">Dropotron</a> | Design by <a href="http://www.freecsstemplates.org/">FCT</a>

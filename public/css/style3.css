@@ -25,7 +25,7 @@ a:hover {
 
 body {
 	line-height: 2em;
-	font-size: 11pt;
+	font-size: 10pt;
 	background: #101723;
 	color: #5E5E5E;
 }
@@ -92,7 +92,7 @@ ul h4 {
 
 .box {
 	overflow: hidden;
-	margin: 0 0 40px 0;
+	margin: 0 0 20px 0;
 }
 
 #content {
@@ -100,11 +100,6 @@ ul h4 {
 	
 	margin: 0 0 0 330px;
 	width: 570px;
-	
-	/*Without sidebar*/
-	/*margin: 0 0 0 0px;
-	width: 900px;*/
-	max-width: 90%; /* ### Added to make it a little bit responsive */
 	padding: 60px 40px 20px 40px;
 }
 
@@ -269,5 +264,5 @@ ul h4 {
 #wrapper {
 	width: 980px;
 	position: relative;
-	margin: 0 auto;
+	margin: auto;
 }
