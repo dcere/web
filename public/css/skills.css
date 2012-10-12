@@ -1,0 +1,61 @@
+/*
+Taken from http://nukaco.la/
+There is no copyright / license indication, so not freely available
+*/
+
+#legend {
+  margin-bottom: 32px;
+  
+  font-size: 12px;
+}
+
+#legend td {
+  padding-right: 66px;
+}
+
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill p {
+  margin-bottom: 5px;
+}
+
+.skill-level {
+  display: inline-block;
+}
+
+.full-square {
+  width:  15px;
+  height: 15px;
+  
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  
+  background-color: black;
+  display: inline-block;
+}
+
+.empty-square {
+  width:  15px;
+  height: 15px;
+  
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+  display: inline-block;
+}
+
+.block {
+  display: inline-block;
+  width: 180px;
+  
+  margin-bottom: 32px;
+}
+
+.block2 {
+  display: inline-block;  
+}

@@ -4,6 +4,7 @@
         %title
             David Ceresuela
         %link(rel="stylesheet" href="css/style4.css")
+        /%link(rel="stylesheet" href="css/skills.css")
    
     %body
         #wrapper
@@ -15,10 +16,14 @@
                     /    Design by somebody that I used to know
             #menu
                 %ul
-                    %li <a href="/">Home</a>
-                    %li <a href="https://github.com/dcere">Github</a>
-                    %li <a href="cv.pdf">CV</a>
-                    %li <a href="/contact">Contact</a>
+                    %li
+                        %a{:href => '/'} Home
+                    %li
+                        %a{:href => 'https://github.com/dcere'} Github
+                    %li
+                        %a{:href => 'cv.pdf'} CV
+                    %li
+                        %a{:href => '/contact'} Contact
             #page
                 #sidebar
                     .box
@@ -31,4 +36,9 @@
 
 
         #footer
-            &copy; 2012 David Ceresuela - <a href="http://dcere.herokuapp.com">dcere.herokuapp.com</a> | Powered by <a href="http://nodethirtythree.com/jquery/dropotron">Dropotron</a> | Design by <a href="http://www.freecsstemplates.org/">FCT</a>
+            &copy; 2012 David Ceresuela -
+            %a{:href => "http://dcere.herokuapp.com"} dcere.herokuapp.com
+            | Powered by
+            %a{:href => "http://nodethirtythree.com/jquery/dropotron"} Dropotron
+            | Design by
+            %a{:href => "http://www.freecsstemplates.org/"} FCT

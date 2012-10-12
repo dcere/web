@@ -73,6 +73,10 @@ p {
     margin-bottom: 1.75em;
 }
 
+table {
+    margin-bottom: 1.75em;
+}
+
 ul {
     margin-bottom: 1.75em;
 }
@@ -88,17 +92,20 @@ ul h4 {
 
 #content {
     background: #FFF;
-    text-align:justify;
     width: 100%;
 }
 
 #content h2 {
     color: #0D0D0D;
-    padding-top: 20px; 
+    padding-top: 20px;
 }
 
 #content h3, #content h4 {
     color: #0D0D0D;
+}
+
+#content p {
+    text-align:justify;
 }
 
 #footer {
@@ -192,7 +199,7 @@ ul h4 {
 #page ul {
     list-style: none;
 }
-
+/*
 #page ul li {
     padding: 15px 0 15px 0;
     border-top: dashed 1px #CCC;
@@ -201,7 +208,7 @@ ul h4 {
 #page ul li.first {
     border-top: 0;
     padding-top: 0;
-}
+}*/
 
 #sidebar {
     background: #FFFFFF url(images/img02.gif) repeat-y top right;
@@ -213,6 +220,7 @@ ul h4 {
     color: #000;
 }
 
+/*
 #sidebar ul {
     list-style: none;
 }
@@ -226,6 +234,7 @@ ul h4 {
     padding-top: 0;
     border-top: 0;
 }
+*/
 
 #wrapper {
     width: 90%;
