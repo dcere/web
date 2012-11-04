@@ -5,6 +5,10 @@ get '/' do
    haml :index
 end
 
+get '/cv' do
+    haml :cv
+end
+
 get '/contact' do
     haml :contact
 end
